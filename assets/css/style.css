@@ -77,6 +77,10 @@ p{
 
 }
 
+.profile-card{
+    background-color: #000;
+    border-radius: 10px;
+}
 
 .card {
     position: relative;
@@ -88,7 +92,7 @@ p{
     word-wrap: break-word;
     background-color: transparent;
     background-clip: border-box;
-    border: 1px solid #252525;
+    /*border: 1px solid #252525;*/
     border-radius: 5px;
     border-left: 3px solid #ffc107; 
 }
