@@ -15,20 +15,29 @@ p{
     word-spacing: 5px;
     font-size: 1.1rem;
 }
+.top-header {
+    font-size: 12rem;
+    font-weight: bolder;
+    color: #000;
+    /*text-shadow: #353535 1px 1px 0;*/
+}
 
 .menu a {
-    color: #6d5e5e;
-    ;
-    font-size: 1.3rem;
+    color: #FFC107;
+    font-size: 1.4rem;
 }
 
 .shadow-sm {
     -webkit-box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
     box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
 }
+.shadow-sm-black {
+    -webkit-box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .6) !important;
+    box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .6) !important;
+}
 
 .nav-tabs {
-    border-bottom: 5px solid #ffc107 !important;
+    border-bottom: 4px solid #FFC107 !important;
 }
 
 .nav-tabs .nav-link {
@@ -93,4 +102,8 @@ p{
 
 .border {
     border: 2px solid #272727!important;
+}
+
+.border-warning{
+    border: 1.5px solid #ffc107 !important;
 }
