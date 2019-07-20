@@ -18,13 +18,26 @@ p{
 .top-header {
     font-size: 12rem;
     font-weight: bolder;
-    color: #000;
+    color: #111;
     /*text-shadow: #353535 1px 1px 0;*/
 }
 
 .menu a {
     color: #FFC107;
     font-size: 1.4rem;
+}
+
+.intro {
+    font-size: 1.2rem;
+}
+.intro .big {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.intro span, a{
+    color: grey;
 }
 
 .shadow-sm {
@@ -37,7 +50,7 @@ p{
 }
 
 .nav-tabs {
-    border-bottom: 4px solid #FFC107 !important;
+    /*border-bottom: 2px solid #FFC107 !important;*/
 }
 
 .nav-tabs .nav-link {
