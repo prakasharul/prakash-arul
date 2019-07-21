@@ -10,6 +10,9 @@ body {
     background-color: #000;
 
 }
+.nav-tabs{
+    border:none;
+}
 p{
     line-height: 30px;
     word-spacing: 5px;
