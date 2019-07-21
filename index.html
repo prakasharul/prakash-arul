@@ -12,7 +12,9 @@
     <meta property="og:description" content="I'm an #EnthusiasticProgrammer, #Entrepreneur, #OpenMinded, #FormerBoy, #EarthLover kind of #Freak, #Moviebuff, #Cricketer, Open Source #Techie also a part time #Freelancer Web developer. And #Founder">
     <meta property="og:type" content="profile">
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/21141289">
-    
+    <!-- meta color header -->
+    <meta name="theme-color" content="#181818">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -21,9 +23,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- google font  -->
     <link href="https://fonts.googleapis.com/css?family=Raleway|Stylish&display=swap" rel="stylesheet">
+    <script>
+        var bgcolor = document.getElementById("body").style.backgroundColor
+        document.querySelector('meta[name="theme-color"]').setAttribute('content',  bgcolor);
+    </script>
 </head>
 
-<body class="bg-light" data-spy="scroll" data-target=".menu" data-offset="50">
+<body class="bg-light" id="body" data-spy="scroll" data-target=".menu" data-offset="50">
     <!-- nav bar -->
     <nav class="menu shadow-sm fixed-bottom d-lg-none">
         <ul class="nav nav-tabs nav-justified text-center mb-0">
