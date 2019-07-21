@@ -127,3 +127,14 @@ p{
 .border-warning{
     border: 1.5px solid #ffc107 !important;
 }
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+.bg-light {
+    background-color: #949494!important;
+}
+.text-grey{
+    color: #949494 !important;
+}
