@@ -14,7 +14,6 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/21141289">
     <!-- meta color header -->
     <meta name="theme-color" content="#181818">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -23,29 +22,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- google font  -->
     <link href="https://fonts.googleapis.com/css?family=Raleway|Stylish&display=swap" rel="stylesheet">
-
 </head>
 
 <body class="bg-light" id="body" data-spy="scroll" data-target=".menu" data-offset="50">
     <!-- nav bar -->
     <nav class="menu shadow-sm fixed-bottom d-lg-none">
         <ul class="nav nav-tabs nav-justified text-center mb-0">
+            <li class="nav-item ">
+                <a class="nav-link" href="#i-am">
+                    <i class="fas fa-user-tie fa-1x"></i> <span class="d-none d-lg-inline"> I'am</span>
+                </a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="#capable-of">
                     <i class="fab fa-python fa-1x"></i>
                     <span class="d-none d-lg-inline"> Capable Of</span>
                 </a>
             </li>
-            <li class="nav-item">
+            <!--  <li class="nav-item">
                 <a class="nav-link" href="#job-done"><i class="fas fa-project-diagram fa-1x"></i>
                     <span class="d-none d-lg-inline"> Job Done</span>
                 </a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="#i-am">
-                    <i class="fas fa-user-tie fa-1x"></i> <span class="d-none d-lg-inline"> I'am</span>
-                </a>
-            </li>
+            </li> -->
             <li class="nav-item">
                 <a class="nav-link" href="#journey">
                     <i class="fas fa-history fa-1x"></i>
@@ -60,25 +58,19 @@
             </li>
         </ul>
     </nav>
-    <div class="container p-0" id="i-am" style="height: 100vh">
-        <!--  <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 text-center">
-                <p class=" p-2 mt-3  shadow-sm-black text-center text-warning" style="border-radius: 25px;background-color: #000">
-                    <b><i class="fas fa-code"></i> &nbsp;Prakash Arul &nbsp;<span class="d-none d-md-inline ">|&nbsp; Full Stack Developer</span></b>
-                </p>
-            </div>
-        </div> -->
-        <div style="height: 100px" class="d-none d-lg-block"></div>
+    <!-- particles js container -->
+    <div id="particles-js"></div>
+    <!-- landing page -->
+    <div class="container p-0" id="i-am" style="height: 100vh;overflow: hidden;">
+        <div style="height: 150px;" class="d-none d-lg-block"></div>
         <div class="container-fluid text-center text-light pt-3 pb-5 pr-4 pl-4 mb-5">
-            <i class="fas fa-code fa-3x d-block d-md-none pb-3" style="color: #000"></i>
             <h1 class="mb-0" style="font-weight: bolder;text-transform: uppercase;font-size: 2.5rem;">
                 <i class="fas fa-code text-black d-md-inline d-none"></i> Prakash Arul </h1>
             <small>
-                <p class="p-0 m-0 mb-4">FullStack Developer</p>
+                <p class="p-0 m-0 mb-2">FullStack Developer</p>
             </small>
-            <ul class="list-inline">
-                <li class="list-inline-item">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item mb-0">
                     <p><a href="tel:+91 917953336" class="text-warning"><i class="fas fa-phone"></i> +91 9176953336</a></p>
                 </li>
                 <li class="list-inline-item">
@@ -99,132 +91,179 @@
         </div>
         <div style="height: 100px" class="d-none d-md-block d-md-block"></div>
     </div>
-    </div>
+    <!-- skills section -->
+    <div class="clearfix">&nbsp;</div>
     <div class="container shadow-sm-black bg-black text-light" id="capable-of">
         <h3 class=" text-center p-3 text-warning"><b>Capable of</b></h3>
         <div class="row">
-             <div class="col-md-6 ">
+            <div class="col-md-6 ">
                 <div class="media mb-3">
-                    <i class="fab fa-python fa-2x"></i> 
+                    <div class="icon-box">
+                        <i class="fab fa-python fa-2x"></i>
+                    </div>
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:80%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:80%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="media mb-3">
-                    <i class="fab fa-php fa-2x"></i> 
-                    <div class="media-body pl-2 align-self-center">
-                        <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:70%"></div>
-                        </div>
+                    <div class="icon-box">
+                        <i class="fab fa-php fa-2x"></i>
                     </div>
-                </div>
-                 <div class="media mb-3">
-                    <i class="fab fa-wordpress fa-2x"></i> 
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:80%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:70%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="media mb-3">
-                    <i class="fab fa-git fa-2x"></i> 
+                    <div class="icon-box">
+                        <i class="fab fa-wordpress fa-2x"></i>
+                    </div>
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:80%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:80%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="media mb-3">
-                    <i class="fab fa-linux fa-2x"></i> 
+                    <div class="icon-box">
+                        <i class="fab fa-git fa-2x"></i>
+                    </div>
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:70%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:80%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="media mb-3">
-                    <i class="fab fa-docker fa-2x"></i> 
+                    <div class="icon-box">
+                        <i class="fab fa-linux fa-2x"></i>
+                    </div>
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:50%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:70%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="media mb-3">
-                    <i class="fab fa-aws fa-2x"></i> 
+                    <div class="icon-box">
+                        <i class="fab fa-docker fa-2x"></i>
+                    </div>
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:50%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="media mb-3">
+                    <div class="icon-box">
+                        <i class="fab fa-aws fa-2x"></i>
+                    </div>
+                    <div class="media-body pl-2 align-self-center">
+                        <div class="progress bg-dark" style="height: 8px">
+                            <div class="progress-bar text-dark bg-light" style="width:50%"></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 ">
-                 <div class="media mb-3">
-                    <i class="fab fa-html5 fa-2x"></i> 
+                <div class="media mb-3">
+                    <div class="icon-box">
+                        <i class="fab fa-html5 fa-2x"></i>
+                    </div>
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:80%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:80%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="media mb-3">
-                    <i class="fab fa-css3 fa-2x"></i> 
-                    <div class="media-body pl-2 align-self-center">
-                        <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:70%"></div>
-
-                        </div>
+                    <div class="icon-box">
+                        <i class="fab fa-css3 fa-2x"></i>
                     </div>
-                </div>
-                 <div class="media mb-3">
-                    <i class="fab fa-js fa-2x"></i> 
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:70%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:70%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="media mb-3">
-                    <i class="fab fa-bootstrap fa-2x"></i> 
+                    <div class="icon-box">
+                        <i class="fab fa-js fa-2x"></i>
+                    </div>
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:80%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:70%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="media mb-3">
-                    <i class="fab fa-angular fa-2x"></i> 
+                    <div class="icon-box">
+                        <i class="fab fa-bootstrap fa-2x"></i>
+                    </div>
                     <div class="media-body pl-2 align-self-center">
                         <div class="progress bg-dark" style="height: 8px">
-                          <div class="progress-bar text-dark bg-light" style="width:60%"></div>
+                            <div class="progress-bar text-dark bg-light" style="width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="media mb-3">
+                    <div class="icon-box">
+                        <i class="fab fa-angular fa-2x"></i>
+                    </div>
+                    <div class="media-body pl-2 align-self-center">
+                        <div class="progress bg-dark" style="height: 8px">
+                            <div class="progress-bar text-dark bg-light" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
                         </div>
                     </div>
                 </div>
             </div>
-           
-             <div class="col-md-12 text-center">
-                 <ul class="list-inline">
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border"> SQL</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">DJango</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">Angular</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">Rest API</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">MongoDB</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">MySQL</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">SQLLite</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">Jekyll</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">PWA</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">JQuery</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">LDAP</div></li>
-                    <li class="list-inline-item"><div class="badge badge-pill p-2 border">APache Kafka</div></li>
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark"> SQL</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">DJango</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">Angular</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">Rest API</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">MongoDB</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">MySQL</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">SQLite</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">Jekyll</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">PWA</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">JQuery</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">LDAP</div>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="badge badge-pill p-2 shadow-sm-black bg-dark">Apache Kafka</div>
+                    </li>
                 </ul>
             </div>
         </div>
-   
+        <div class="clearfix">&nbsp;</div>
     </div>
-  <!--   <div class="container" id="job-done">
+    <!--   <div class="container" id="job-done">
         <h3 class="text-warning text-center p-3"><b>Job Done</b></h3>
         <div class="clearfix">&nbsp;</div>
         <div id="job">
@@ -313,6 +352,7 @@
         <div class="clearfix">&nbsp;</div>
     </div> -->
     <!-- journey section -->
+    <div class="clearfix">&nbsp;</div>
     <div class="container" id="journey">
         <h3 class="text-warning text-center p-3"><b>Journey</b></h3>
         <div class="clearfix">&nbsp;</div>
@@ -383,14 +423,14 @@
     <div class="container-fluid" id="find-me">
         <h3 class="text-warning text-center p-3"><b>Find Me</b></h3>
         <ul class="list-inline text-center">
-            <li class="list-inline-item p-4  text-white">
+         <!--    <li class="list-inline-item p-4  text-white">
                 <a href="" class="text-light"><i class="fab fa-facebook-f fa-3x"></i> <br>facebook</a>
+            </li> -->
+            <li class="list-inline-item p-4  text-white">
+                <a href="https://www.linkedin.com/in/prakash-arul/" target="_blank" class="text-light"><i class="fab fa-linkedin-in fa-3x"></i> <br>Linkedin</a>
             </li>
             <li class="list-inline-item p-4  text-white">
-                <a href="" class="text-light"><i class="fab fa-linkedin-in fa-3x"></i> <br>Linkedin</a>
-            </li>
-            <li class="list-inline-item p-4  text-white">
-                <a href="" class="text-light"><i class="fab fa-github fa-3x"></i><br> Github</a>
+                <a href="https://github.com/prakasharul" target="_blank" class="text-light"><i class="fab fa-github fa-3x"></i><br> Github</a>
             </li>
             <li class="list-inline-item p-4  text-white">
                 <a href="" class="text-light"><i class="fab fa-twitter fa-3x"></i><br> twitter</a>
@@ -399,18 +439,15 @@
                 <a href="" class="text-light"><i class="fab fa-skype fa-3x "></i><br> skype</a>
             </li>
             <li class="list-inline-item p-4">
-                <a href="" class="text-light"><i class="fas fa-cloud-download-alt fa-3x "></i><br> Download</a>
+                <a href="assets/doc/prakash-arul-fullstack-developer.pdf" download class="text-light"><i class="fas fa-cloud-download-alt fa-3x "></i><br> Download</a>
             </li>
         </ul>
         <p class="text-center">Powered by <a href="https://codelife.in/" target="_blank" class="text-white">Codelife India</a></p>
         <div class="clearfix">&nbsp;</div>
         <div class="d-lg-none d-block" style="height: 40px"></div>
     </div>
-     <!-- <script>
-        var bgcolor = document.body.style.backgroundColor
-        console.log(bgcolor)
-        document.querySelector('meta[name="theme-color"]').setAttribute('content',  document.body.style.backgroundColor);
-    </script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript" src="assets/js/particle.js"></script>
 </body>
 
 </html>
