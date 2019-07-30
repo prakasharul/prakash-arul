@@ -34,13 +34,176 @@
     <meta name="msapplication-TileColor" content="#181818">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- google font  -->
     <link href="https://fonts.googleapis.com/css?family=Raleway|Stylish&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        body {
+    background-image: linear-gradient(to bottom, #181818, #141414, #0e0e0e, #080808, #000000);
+    color: #666;
+    font-family: 'Raleway', sans-serif;
+    /*padding-bottom: 40px;*/
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.menu {
+    color: #dadada;
+    background-color: #000;
+
+}
+.nav-tabs{
+    border:none;
+}
+p{
+    line-height: 30px;
+    word-spacing: 5px;
+    font-size: 1.1rem;
+}
+.top-header {
+    font-size: 12rem;
+    font-weight: bolder;
+    color: #111;
+    /*text-shadow: #353535 1px 1px 0;*/
+}
+
+.menu a {
+    color: #FFC107;
+    font-size: 1.4rem;
+}
+
+.intro {
+    font-size: 1.2rem;
+}
+.intro .big {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.intro span, a{
+    color: grey;
+}
+
+.shadow-sm {
+    -webkit-box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
+    box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
+}
+.shadow-sm-black {
+    -webkit-box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .6) !important;
+    box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .6) !important;
+}
+
+.nav-tabs {
+    /*border-bottom: 2px solid #FFC107 !important;*/
+}
+
+.nav-tabs .nav-link {
+    padding: 10px;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #007bff;
+    border: none;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -2px;
+}
+
+.media-box {
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    line-height: 70px;
+    text-align: center;
+    /*font-size: 2rem;*/
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+
+}
+
+.profile-card{
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    /*border: 1px solid #252525;*/
+    border-radius: 5px;
+    border-left: 3px solid #ffc107; 
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+     background-color: transparent; 
+     border-bottom: none; 
+}
+
+.border {
+    border: 2px solid #272727!important;
+}
+
+.border-warning{
+    border: 1.5px solid #ffc107 !important;
+}
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+.bg-light {
+    background-color: #949494!important;
+}
+.text-grey{
+    color: #949494 !important;
+}
+
+.border{
+    border: 1px solid #000;
+}
+
+.icon-box{
+    width: 38px;
+    text-align: center;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+    </style>
 </head>
 
 <body class="bg-light" id="body" data-spy="scroll" data-target=".menu" data-offset="50">
@@ -365,6 +528,9 @@
         <div class="clearfix">&nbsp;</div>
         <div class="d-lg-none d-block" style="height: 40px"></div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script type="text/javascript" src="assets/js/particle.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
