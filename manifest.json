@@ -1,0 +1,26 @@
+{
+	"name":" Prakash Arul",
+	"short_name": "Prakash",
+	"lang": "en-US",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#181818",
+	"theme_color": "#181818",
+	"icons": [
+		{
+			"src": "assets/img/logo/code_128.png",
+			"sizes": "128x128",
+			"types": "image/png"
+		},
+		{
+			"src": "assets/img/logo/code_144.png",
+			"sizes": "144x144",
+			"types": "image/png"
+		},
+		{
+			"src": "assets/img/logo/code_512.png",
+			"sizes": "512x512",
+			"types": "image/png"
+		}
+	]
+}
